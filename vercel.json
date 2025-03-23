@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*.php",
+      "use": "vercel-php"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "api/sp2.json",
+      "destination": "api/sp2.php"
+    }
+  ]
+}
